@@ -17,8 +17,5 @@ const anagram = function(str1, str2){
   return !(false in array);
 }
 
-let object = {
-  name: 2
-}
 console.log(anagram('finder', 'Friend'));
 console.log(anagram('hello', 'bye'));

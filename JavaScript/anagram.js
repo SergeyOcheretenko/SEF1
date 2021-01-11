@@ -22,9 +22,3 @@ let object = {
 }
 console.log(anagram('finder', 'Friend'));
 console.log(anagram('hello', 'bye'));
-
-object.b = 1
-object.a = 2
-object.c = 3
-console.log(object)
-console.log(Object.keys(object))
